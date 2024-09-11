@@ -39,3 +39,7 @@ test("Pin de 3 dígitos: Debería devolver false", () => {
 test("Pin contiene letras: Debería devolver false", () => {
     expect(validarPin('12r7')).toBe(false);
 });
+
+test("Pin vacío: Debería devolver false", () => {
+    expect(validarPin('')).toBe(false);
+});

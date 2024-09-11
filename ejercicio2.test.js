@@ -29,3 +29,7 @@ test("Volumen en litros de un tanque de 300 centímetros de diámetro y 300 cent
     expect(calcularVolumen(300, 300, false)).toBe(21205.75);
 });
 
+test("Volumen en litros de un tanque de 200 centímetros de diámetro y 500 centímetros de altura", () => {
+    expect(calcularVolumen(200, 500, false)).toBe(15707.96);
+});
+
